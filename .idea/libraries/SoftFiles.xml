@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SoftFiles">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SoftFiles/selenium-server-4.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SoftFiles/chromedriver_win32 (1).zip!/" />
+      <root url="jar://$PROJECT_DIR$/SoftFiles/poi-bin-5.2.0-20220106.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
