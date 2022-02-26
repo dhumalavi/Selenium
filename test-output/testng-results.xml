@@ -1,73 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[Browser launch successful]]>
+      <![CDATA[1 Browser launch successful]]>
     </line>
     <line>
-      <![CDATA[Click on login btn successful]]>
+      <![CDATA[2 User name entered successful]]>
     </line>
     <line>
-      <![CDATA[User name entered successful]]>
+      <![CDATA[3 Enter Password successful]]>
     </line>
     <line>
-      <![CDATA[Enter Password successful]]>
+      <![CDATA[4 Click on login btn successful]]>
     </line>
     <line>
-      <![CDATA[User name entered successful]]>
+      <![CDATA[5 Browser launch successful]]>
     </line>
     <line>
-      <![CDATA[User name verified successful]]>
+      <![CDATA[6 User name entered successful]]>
+    </line>
+    <line>
+      <![CDATA[7 Enter Password successful]]>
+    </line>
+    <line>
+      <![CDATA[8 Click on login btn successful]]>
     </line>
   </reporter-output>
-  <suite started-at="2022-02-22T00:04:09 IST" name="Default suite" finished-at="2022-02-22T00:04:09 IST" duration-ms="38">
+  <suite started-at="2022-02-26T10:52:40 IST" name="Suite" finished-at="2022-02-26T10:52:41 IST" duration-ms="59">
     <groups>
+      <group name="Add to cart">
+        <method signature="Grouping.m5()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" name="m5" class="com.Aspire.framework.testNG.Grouping"/>
+      </group> <!-- Add to cart -->
+      <group name="signin">
+        <method signature="Grouping.m3()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" name="m3" class="com.Aspire.framework.testNG.Grouping"/>
+        <method signature="Grouping.m8()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" name="m8" class="com.Aspire.framework.testNG.Grouping"/>
+      </group> <!-- signin -->
+      <group name="payment">
+        <method signature="Grouping.m2()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" name="m2" class="com.Aspire.framework.testNG.Grouping"/>
+      </group> <!-- payment -->
+      <group name="order">
+        <method signature="Grouping.m4()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" name="m4" class="com.Aspire.framework.testNG.Grouping"/>
+        <method signature="Grouping.m6()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" name="m6" class="com.Aspire.framework.testNG.Grouping"/>
+        <method signature="Grouping.m7()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" name="m7" class="com.Aspire.framework.testNG.Grouping"/>
+      </group> <!-- order -->
     </groups>
-    <test started-at="2022-02-22T00:04:09 IST" name="Default test" finished-at="2022-02-22T00:04:09 IST" duration-ms="38">
-      <class name="com.Aspire.framework.testNG.Annototations1">
-        <test-method is-config="true" signature="browserlaunch()[pri:0, instance:com.Aspire.framework.testNG.Annototations1@243c4f91]" started-at="2022-02-22T00:04:09 IST" name="browserlaunch" finished-at="2022-02-22T00:04:09 IST" duration-ms="5" status="PASS">
+    <test started-at="2022-02-26T10:52:40 IST" name="TestNG" finished-at="2022-02-26T10:52:41 IST" duration-ms="59">
+      <class name="com.Aspire.framework.testNG.Grouping">
+        <test-method signature="m1()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:40 IST" name="m1" finished-at="2022-02-26T10:52:41 IST" duration-ms="9" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Browser launch successful]]>
+              <![CDATA[1 Browser launch successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- browserlaunch -->
-        <test-method signature="Loginbtn()[pri:0, instance:com.Aspire.framework.testNG.Annototations1@243c4f91]" started-at="2022-02-22T00:04:09 IST" name="Loginbtn" finished-at="2022-02-22T00:04:09 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- m1 -->
+        <test-method signature="m2()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:41 IST" name="m2" finished-at="2022-02-26T10:52:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Click on login btn successful]]>
+              <![CDATA[2 User name entered successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- Loginbtn -->
-        <test-method is-config="true" signature="enterusername()[pri:0, instance:com.Aspire.framework.testNG.Annototations1@243c4f91]" started-at="2022-02-22T00:04:09 IST" name="enterusername" finished-at="2022-02-22T00:04:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- m2 -->
+        <test-method signature="m3()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:41 IST" name="m3" finished-at="2022-02-26T10:52:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[User name entered successful]]>
+              <![CDATA[3 Enter Password successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- enterusername -->
-        <test-method signature="enterpassword()[pri:0, instance:com.Aspire.framework.testNG.Annototations1@243c4f91]" started-at="2022-02-22T00:04:09 IST" name="enterpassword" finished-at="2022-02-22T00:04:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- m3 -->
+        <test-method signature="m4()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:41 IST" name="m4" finished-at="2022-02-26T10:52:41 IST" duration-ms="0" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[Enter Password successful]]>
+              <![CDATA[4 Click on login btn successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- enterpassword -->
-        <test-method is-config="true" signature="enterusername()[pri:0, instance:com.Aspire.framework.testNG.Annototations1@243c4f91]" started-at="2022-02-22T00:04:09 IST" name="enterusername" finished-at="2022-02-22T00:04:09 IST" duration-ms="1" status="PASS">
+        </test-method> <!-- m4 -->
+        <test-method signature="m5()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:41 IST" name="m5" finished-at="2022-02-26T10:52:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[User name entered successful]]>
+              <![CDATA[5 Browser launch successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- enterusername -->
-        <test-method is-config="true" signature="verifyuser()[pri:0, instance:com.Aspire.framework.testNG.Annototations1@243c4f91]" started-at="2022-02-22T00:04:09 IST" name="verifyuser" finished-at="2022-02-22T00:04:09 IST" duration-ms="0" status="PASS">
+        </test-method> <!-- m5 -->
+        <test-method signature="m6()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:41 IST" name="m6" finished-at="2022-02-26T10:52:41 IST" duration-ms="1" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[User name verified successful]]>
+              <![CDATA[6 User name entered successful]]>
             </line>
           </reporter-output>
-        </test-method> <!-- verifyuser -->
-      </class> <!-- com.Aspire.framework.testNG.Annototations1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- m6 -->
+        <test-method signature="m7()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:41 IST" name="m7" finished-at="2022-02-26T10:52:41 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[7 Enter Password successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m7 -->
+        <test-method signature="m8()[pri:0, instance:com.Aspire.framework.testNG.Grouping@67a20f67]" started-at="2022-02-26T10:52:41 IST" name="m8" finished-at="2022-02-26T10:52:41 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[8 Click on login btn successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- m8 -->
+      </class> <!-- com.Aspire.framework.testNG.Grouping -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Suite -->
 </testng-results>

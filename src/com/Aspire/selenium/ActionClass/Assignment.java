@@ -11,7 +11,6 @@ import org.openqa.selenium.interactions.Actions;
 public class Assignment
 
 {
-
 	public static void main(String[] args) throws InterruptedException 
 	{
 		System.setProperty("webdriver.chrome.driver", "D:\\Testing\\SeleniumOct21\\SoftFiles\\chromedriver.exe");
@@ -66,4 +65,14 @@ public class Assignment
 		Thread.sleep(4000);
 		driver.close();
 	}
+
+
+
+
+
+
+
+
+
+
 }
