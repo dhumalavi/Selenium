@@ -54,3 +54,4 @@ public class CovidTable
 	driver.close();
 	}
 }
+

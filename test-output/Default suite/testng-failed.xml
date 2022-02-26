@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Aspire.framework.testNG.test2">
+      <class name="com.Aspire.framework.testNG.FailedXml_Creation">
         <methods>
-          <include name="hiddenpopupclose"/>
-          <include name="movemouse"/>
+          <include name="m2"/>
+          <include name="m3"/>
         </methods>
-      </class> <!-- com.Aspire.framework.testNG.test2 -->
+      </class> <!-- com.Aspire.framework.testNG.FailedXml_Creation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

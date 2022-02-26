@@ -25,36 +25,52 @@ public class Allpops
 		driver.get("https://chandanachaitanya.github.io/selenium-practice-site/?languages=Java&enterText=");
 		
 		Thread.sleep(2000);
-//Alert popup
-		//alert***********************************
-		
-		driver.findElement(By.xpath("//button[@id='alertBox']")).click();
-		
-		Alert alt = driver.switchTo().alert();
-		
-		System.out.println(alt.getText());
-		
-		Thread.sleep(2000);
-		alt.accept();
-
-		Thread.sleep(2000);
-		
-		//confirm box*************************************
 		
 		driver.findElement(By.xpath("//button[@id='confirmBox']")).click();
-		
-		Alert confirmtext = driver.switchTo().alert();
-		
-		
-		System.out.println(confirmtext.getText());
-		
 		Thread.sleep(2000);
+		Alert alr = driver.switchTo().alert();
 		
-		confirmtext.dismiss();
-	
+		String text = alr.getText();
+		
+		System.out.println(text);
 		Thread.sleep(2000);
+		alr.dismiss();
 		
-		//prompt box
+		
+
+		Thread.sleep(5000);
+		driver.close();
+
+////Alert popup
+//		//alert***********************************
+//		
+//		driver.findElement(By.xpath("//button[@id='alertBox']")).click();
+//		
+//		Alert alt = driver.switchTo().alert();
+//		
+//		System.out.println(alt.getText());
+//		
+//		Thread.sleep(2000);
+//		alt.accept();
+//
+//		Thread.sleep(2000);
+//		
+//		//confirm box*************************************
+//		
+//		driver.findElement(By.xpath("//button[@id='confirmBox']")).click();
+//		
+//		Alert confirmtext = driver.switchTo().alert();
+//		
+//		
+//		System.out.println(confirmtext.getText());
+//		
+//		Thread.sleep(2000);
+//		
+//		confirmtext.dismiss();
+//	
+//		Thread.sleep(2000);
+//		
+//		//prompt box
 		
 //
 //		driver.findElement(By.xpath("//button[@id='promptBox']")).click();
